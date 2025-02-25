@@ -1,0 +1,84 @@
+/* Page layout */
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f5f7; /* Soft background for contrast */
+}
+
+/* Cards row */
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+/* Card styles */
+.card {
+  min-height: 250px;
+  width: 280px;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Text styling */
+.card .txt h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.card .txt p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Register button */
+.card a {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+  background: #ff5722;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 2rem;
+  transition: background 0.3s ease;
+}
+
+.card a:hover {
+  background: #e64a19;
+}
+
+/* Background colors for variety */
+.individual {
+  background: #ffecf1;
+}
+
+.institution {
+  background: #e7f5ff;
+}
+
+.organization {
+  background: #ffece8;
+}
+
+.h1{
+  font-weight: normal;
+}
