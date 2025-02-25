@@ -1,0 +1,100 @@
+.dropdownWrapper {
+    margin-bottom: 1.5rem;
+  }
+  
+  .dropdownWrapper label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .dropdownField {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #fff;
+    appearance: none;
+    cursor: pointer;
+  }
+  
+  .dropdownField:focus {
+    border-color: #7c32ff;
+    outline: none;
+  }
+  
+  .dropdownField:hover {
+    border-color: #701dff;
+  }
+  
+  /* Optional: Add a down arrow icon for the dropdown */
+  .dropdownWrapper select {
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"%3E%3Cpolyline points="6 9 12 15 18 9"%3E%3C/polyline%3E%3C/svg%3E');
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 1rem;
+  }
+  /* registration_form.module.css */
+
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #f0f0f0;
+  }
+  
+  .formWrapper {
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .textCenter {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .inputWrapper {
+    margin-bottom: 1.5rem;
+  }
+  
+  .inputWrapper label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .inputField {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .inputField:focus {
+    border-color: #7c32ff;
+    outline: none;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 1rem;
+    background-color: #7c32ff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: 
+    #701dff;
+  }
+  
